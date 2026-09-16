@@ -1,0 +1,328 @@
+@import "tailwindcss";
+
+/*
+  PSTATS visual system.
+
+  Direction: survival-horror field manual, not a gamer-RGB dashboard.
+  Near-black ground, data-ink over decoration, no gradients, no glass,
+  no glow. Condensed stencil display type carries the personality; the
+  numbers are always tabular and right-aligned.
+
+  Colour is semantic and rationed:
+    - harm  (#d94f3d) only for friendly fire, deaths, incaps, wipes
+    - clear (#5eead4) only for cleared chapters and revives
+    - everything else is neutral grey
+  Never colour-code by player identity: four-player palettes get muddy.
+*/
+
+@theme {
+  --color-ground: #0a0a0b;
+  --color-raised: #121214;
+  --color-sunken: #08080a;
+  --color-rule: #1e1e22;
+  --color-rule-bright: #2c2c33;
+
+  --color-ink: #ededf0;
+  --color-ink-dim: #9a9aa4;
+  --color-ink-mute: #6e6e78;
+  --color-ink-faint: #4a4a52;
+
+  --color-harm: #d94f3d;
+  --color-harm-dim: #7a2e25;
+  --color-clear: #5eead4;
+  --color-clear-dim: #2a5f57;
+
+  /* Difficulty is the one axis allowed its own colour ramp. It is an
+     ordered scale, not four unrelated categories, so the hues climb:
+     grey to cyan to violet to red to gold. Kept out of the semantic
+     harm/clear pair on purpose -- an Expert stamp is not an injury. */
+  --color-diff-normal: #56b6d8;
+  --color-diff-advanced: #a97bd8;
+  --color-diff-expert: #d94f3d;
+  --color-diff-realism: #d7a33a;
+
+  --font-display: "Oswald", "Arial Narrow", sans-serif;
+  --font-sans: "Geist", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, "SFMono-Regular", monospace;
+}
+
+@layer base {
+  html {
+    background: var(--color-ground);
+    /* Wide content (tables, the FF matrix) scrolls inside its own
+       overflow-x-auto container; the page itself never does. */
+    overflow-x: hidden;
+  }
+
+  body {
+    background: var(--color-ground);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    font-feature-settings: "kern" 1;
+  }
+
+  /* Numbers align everywhere. PLAN.md section 6 calls this the single
+     detail that does the most work, and it is right. */
+  .tnum,
+  table,
+  th,
+  td,
+  .num {
+    font-variant-numeric: tabular-nums;
+    font-feature-settings: "tnum" 1;
+  }
+
+  ::selection {
+    background: var(--color-harm);
+    color: #fff;
+  }
+
+  /* Quality floor: focus must always be visible. */
+  :focus-visible {
+    outline: 2px solid var(--color-clear);
+    outline-offset: 2px;
+    border-radius: 1px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer components {
+  /* ---- Type roles ---- */
+
+  .display {
+    font-family: var(--font-display);
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    line-height: 0.95;
+    text-transform: uppercase;
+  }
+
+  /* Small muted label beneath a big number, or above a section. */
+  .eyebrow {
+    font-family: var(--font-mono);
+    font-size: 0.625rem;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--color-ink-mute);
+  }
+
+  .metric {
+    font-family: var(--font-display);
+    font-weight: 500;
+    font-variant-numeric: tabular-nums;
+    line-height: 0.9;
+    letter-spacing: -0.02em;
+  }
+
+  .mono {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* ---- Surfaces ---- */
+
+  .panel {
+    background: var(--color-raised);
+    border: 1px solid var(--color-rule);
+  }
+
+  /* ---- Tables: no vertical rules, minimal horizontals, generous rows ---- */
+
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .data-table th {
+    font-family: var(--font-mono);
+    font-size: 0.625rem;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--color-ink-mute);
+    text-align: right;
+    padding: 0.5rem 0.75rem;
+    border-bottom: 1px solid var(--color-rule-bright);
+    white-space: nowrap;
+  }
+
+  .data-table th:first-child,
+  .data-table td:first-child {
+    text-align: left;
+    padding-left: 0;
+  }
+
+  .data-table th:last-child,
+  .data-table td:last-child {
+    padding-right: 0;
+  }
+
+  .data-table td {
+    text-align: right;
+    padding: 0.6rem 0.75rem;
+    border-bottom: 1px solid color-mix(in srgb, var(--color-rule) 70%, transparent);
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* Denser rows for a table that has to fit a fixed height budget -- the
+     player profile's summary block. Vertical only: nothing is dropped and
+     no type shrinks, so a compact table says what a roomy one says. */
+  .data-table-tight th {
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+  }
+
+  .data-table-tight td {
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+  }
+
+  /* The difficulty stamp is the tallest thing in a campaign row: its border
+     and padding set the row height on their own. Inside a tight table it
+     keeps its weight but stops dictating the leading. */
+  .data-table-tight .stamp {
+    padding-top: 0.05em;
+    padding-bottom: 0.05em;
+  }
+
+  .data-table tbody tr {
+    transition: background 120ms ease;
+  }
+
+  .data-table tbody tr:hover {
+    background: color-mix(in srgb, var(--color-ink) 3.5%, transparent);
+  }
+
+  .data-table tbody tr:last-child td {
+    border-bottom: none;
+  }
+
+  /* A bot's row reads as secondary without needing a colour of its own. */
+  .row-bot td {
+    color: var(--color-ink-dim);
+  }
+
+  /* ---- The stencil overprint ----
+     The one real risk in this design. Difficulty is stamped rather than
+     badged, so an Expert run cannot be mistaken for a Normal walkthrough
+     (PLAN.md section 6). Type as texture: no glow, no gradient. */
+
+  .stamp {
+    font-family: var(--font-display);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    border: 2px solid currentColor;
+    padding: 0.15em 0.5em 0.1em;
+    display: inline-block;
+    line-height: 1;
+  }
+
+  /* Rotation still climbs with difficulty -- the colour ramp is added on
+     top of the structural emphasis, not a replacement for it, so the scale
+     survives greyscale and colour-blind viewing. */
+
+  .stamp-easy {
+    color: var(--color-ink-mute);
+  }
+
+  .stamp-normal {
+    color: var(--color-diff-normal);
+  }
+
+  .stamp-advanced {
+    color: var(--color-diff-advanced);
+    transform: rotate(-2deg);
+  }
+
+  .stamp-expert {
+    color: var(--color-diff-expert);
+    transform: rotate(-3.5deg);
+    /* Double rule reads as "pressed harder". */
+    box-shadow: 0 0 0 1px var(--color-ground), 0 0 0 3px currentColor;
+  }
+
+  /* The hardest official configuration there is. Gold, and the only stamp
+     that gets a wash behind it -- at this point overstatement is accurate. */
+  .stamp-realism {
+    color: var(--color-diff-realism);
+    transform: rotate(-3.5deg);
+    background: color-mix(in srgb, var(--color-diff-realism) 10%, transparent);
+    box-shadow: 0 0 0 1px var(--color-ground), 0 0 0 3px currentColor;
+  }
+
+  /* ---- Links ---- */
+
+  .link-row {
+    transition: background 120ms ease;
+  }
+
+  .link-row:hover {
+    background: color-mix(in srgb, var(--color-ink) 4%, transparent);
+  }
+
+  /* ---- Page-load reveal. One orchestrated sequence, not scattered. ---- */
+
+  @keyframes rise {
+    from {
+      opacity: 0;
+      transform: translateY(6px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  .rise {
+    animation: rise 420ms cubic-bezier(0.16, 1, 0.3, 1) both;
+  }
+
+  @keyframes strip-in {
+    from {
+      transform: scaleX(0);
+    }
+    to {
+      transform: scaleX(1);
+    }
+  }
+
+  .strip-in {
+    transform-origin: left center;
+    animation: strip-in 620ms cubic-bezier(0.16, 1, 0.3, 1) both;
+  }
+}
+
+/* Scrollbars that do not shout. */
+@layer utilities {
+  .scroll-slim {
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-rule-bright) transparent;
+  }
+
+  .scroll-slim::-webkit-scrollbar {
+    height: 8px;
+    width: 8px;
+  }
+
+  .scroll-slim::-webkit-scrollbar-thumb {
+    background: var(--color-rule-bright);
+    border-radius: 0;
+  }
+
+  .scroll-slim::-webkit-scrollbar-track {
+    background: transparent;
+  }
+}

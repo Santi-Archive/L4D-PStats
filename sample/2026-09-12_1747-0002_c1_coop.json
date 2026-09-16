@@ -1,0 +1,2156 @@
+{
+  "campaign": "c1",
+  "chapters": [
+    {
+      "index": 1,
+      "map": "c1m1_hotel",
+      "outcome": "cleared",
+      "players": {
+        "STEAM_1:0:41882317": {
+          "actions": {
+            "car_alarms": 0,
+            "gascans_poured": 0,
+            "gun_overheats": 0,
+            "items_used": {},
+            "jumps": 24,
+            "panic_events": 1,
+            "pickups": 3,
+            "props_broken": 9,
+            "shoves": 17,
+            "tank_rocks_hit_by": 0,
+            "witches_startled": 0
+          },
+          "character": "Nick",
+          "defense": {
+            "damage_taken": {
+              "fall": 40,
+              "jockey": 21,
+              "teammate": 16
+            },
+            "deaths": 0,
+            "fall_damage": 40,
+            "grabbed_by": {
+              "jockey": 1
+            },
+            "heals_taken": 1,
+            "incapped_by": {
+              "jockey": 1
+            },
+            "incaps": 1,
+            "killed_by": {},
+            "times_defibbed": 0,
+            "times_revived": 1
+          },
+          "is_bot": false,
+          "name": "Kuya",
+          "offense": {
+            "damage_dealt": {
+              "common": 1776,
+              "spitter": 401
+            },
+            "ff_damage": 22,
+            "ff_incaps": 0,
+            "ff_kills": 0,
+            "headshots": {
+              "common": 12,
+              "spitter": 1
+            },
+            "kills": {
+              "common": 50,
+              "spitter": 2
+            },
+            "reloads": 27,
+            "shots_fired": 686,
+            "total_kills": 52,
+            "witch_oneshots": 0
+          },
+          "playtime_s": 540.000,
+          "steamid": "STEAM_1:0:41882317",
+          "teamwork": {
+            "defibs_used": 0,
+            "heals_given": 1,
+            "pairs": {
+              "STEAM_1:1:19204483": {
+                "ff_damage_from": 0,
+                "ff_damage_to": 22,
+                "healed": 0,
+                "healed_by": 1,
+                "incapped": 0,
+                "killed": 0,
+                "revived": 0,
+                "revived_by": 1,
+                "saved": 0,
+                "saved_by": 0,
+                "shoved": 0
+              },
+              "STEAM_1:1:55014728": {
+                "ff_damage_from": 16,
+                "ff_damage_to": 0,
+                "healed": 1,
+                "healed_by": 0,
+                "incapped": 0,
+                "killed": 0,
+                "revived": 2,
+                "revived_by": 0,
+                "saved": 0,
+                "saved_by": 0,
+                "shoved": 0
+              }
+            },
+            "pills_given": 0,
+            "rescues": 0,
+            "revives_given": 2,
+            "saves": 0
+          }
+        },
+        "STEAM_1:0:73310092": {
+          "actions": {
+            "car_alarms": 0,
+            "gascans_poured": 0,
+            "gun_overheats": 0,
+            "items_used": {},
+            "jumps": 28,
+            "panic_events": 0,
+            "pickups": 10,
+            "props_broken": 9,
+            "shoves": 13,
+            "tank_rocks_hit_by": 0,
+            "witches_startled": 0
+          },
+          "character": "Coach",
+          "defense": {
+            "damage_taken": {
+              "fall": 26,
+              "teammate": 93
+            },
+            "deaths": 0,
+            "fall_damage": 26,
+            "grabbed_by": {},
+            "heals_taken": 2,
+            "incapped_by": {
+              "hunter": 1,
+              "jockey": 1,
+              "teammate": 1
+            },
+            "incaps": 3,
+            "killed_by": {},
+            "times_defibbed": 0,
+            "times_revived": 3
+          },
+          "is_bot": false,
+          "name": "marco_ph",
+          "offense": {
+            "damage_dealt": {
+              "boomer": 153,
+              "charger": 148,
+              "common": 1530,
+              "spitter": 251
+            },
+            "ff_damage": 27,
+            "ff_incaps": 0,
+            "ff_kills": 0,
+            "headshots": {
+              "boomer": 1,
+              "common": 14
+            },
+            "kills": {
+              "boomer": 1,
+              "charger": 1,
+              "common": 44,
+              "spitter": 1
+            },
+            "reloads": 17,
+            "shots_fired": 734,
+            "total_kills": 47,
+            "witch_oneshots": 0
+          },
+          "playtime_s": 540.000,
+          "steamid": "STEAM_1:0:73310092",
+          "teamwork": {
+            "defibs_used": 0,
+            "heals_given": 1,
+            "pairs": {
+              "STEAM_1:1:19204483": {
+                "ff_damage_from": 93,
+                "ff_damage_to": 0,
+                "healed": 1,
+                "healed_by": 0,
+                "incapped": 0,
+                "killed": 0,
+                "revived": 1,
+                "revived_by": 1,
+                "saved": 0,
+                "saved_by": 0,
+                "shoved": 0
+              },
+              "STEAM_1:1:55014728": {
+                "ff_damage_from": 0,
+                "ff_damage_to": 27,
+                "healed": 0,
+                "healed_by": 2,
+                "incapped": 0,
+                "killed": 0,
+                "revived": 0,
+                "revived_by": 2,
+                "saved": 0,
+                "saved_by": 0,
+                "shoved": 0
+              }
+            },
+            "pills_given": 0,
+            "rescues": 1,
+            "revives_given": 1,
+            "saves": 0
+          }
+        },
+        "STEAM_1:1:19204483": {
+          "actions": {
+            "car_alarms": 0,
+            "gascans_poured": 0,
+            "gun_overheats": 0,
+            "items_used": {},
+            "jumps": 32,
+            "panic_events": 0,
+            "pickups": 8,
+            "props_broken": 9,
+            "shoves": 9,
+            "tank_rocks_hit_by": 0,
+            "witches_startled": 0
+          },
+          "character": "Rochelle",
+          "defense": {
+            "damage_taken": {
+              "boomer": 14,
+              "spitter": 14,
+              "teammate": 22,
+              "world": 24
+            },
+            "deaths": 1,
+            "fall_damage": 0,
+            "grabbed_by": {
+              "boomer_vomit": 1
+            },
+            "heals_taken": 1,
+            "incapped_by": {
+              "boomer": 2
+            },
+            "incaps": 2,
+            "killed_by": {
+              "boomer": 1
+            },
+            "times_defibbed": 0,
+            "times_revived": 1
+          },
+          "is_bot": false,
+          "name": "jaytee",
+          "offense": {
+            "damage_dealt": {
+              "common": 498,
+              "jockey": 343,
+              "smoker": 159
+            },
+            "ff_damage": 93,
+            "ff_incaps": 1,
+            "ff_kills": 0,
+            "headshots": {
+              "common": 7
+            },
+            "kills": {
+              "common": 15,
+              "jockey": 2,
+              "smoker": 1
+            },
+            "reloads": 17,
+            "shots_fired": 678,
+            "total_kills": 18,
+            "witch_oneshots": 0
+          },
+          "playtime_s": 540.000,
+          "steamid": "STEAM_1:1:19204483",
+          "teamwork": {
+            "defibs_used": 0,
+            "heals_given": 1,
+            "pairs": {
+              "STEAM_1:0:41882317": {
+                "ff_damage_from": 22,
+                "ff_damage_to": 0,
+                "healed": 1,
+                "healed_by": 0,
+                "incapped": 0,
+                "killed": 0,
+                "revived": 1,
+                "revived_by": 0,
+                "saved": 0,
+                "saved_by": 0,
+                "shoved": 0
+              },
+              "STEAM_1:0:73310092": {
+                "ff_damage_from": 0,
+                "ff_damage_to": 93,
+                "healed": 0,
+                "healed_by": 1,
+                "incapped": 1,
+                "killed": 0,
+                "revived": 1,
+                "revived_by": 1,
+                "saved": 0,
+                "saved_by": 0,
+                "shoved": 0
+              }
+            },
+            "pills_given": 0,
+            "rescues": 0,
+            "revives_given": 2,
+            "saves": 0
+          }
+        },
+        "STEAM_1:1:55014728": {
+          "actions": {
+            "car_alarms": 0,
+            "gascans_poured": 0,
+            "gun_overheats": 0,
+            "items_used": {
+              "molotov": 1,
+              "pipe_bomb": 1
+            },
+            "jumps": 30,
+            "panic_events": 0,
+            "pickups": 6,
+            "props_broken": 10,
+            "shoves": 31,
+            "tank_rocks_hit_by": 0,
+            "witches_startled": 0
+          },
+          "character": "Ellis",
+          "defense": {
+            "damage_taken": {
+              "spitter": 28,
+              "teammate": 27,
+              "world": 14
+            },
+            "deaths": 0,
+            "fall_damage": 0,
+            "grabbed_by": {},
+            "heals_taken": 1,
+            "incapped_by": {
+              "charger": 2
+            },
+            "incaps": 2,
+            "killed_by": {},
+            "times_defibbed": 0,
+            "times_revived": 2
+          },
+          "is_bot": false,
+          "name": "lenlen",
+          "offense": {
+            "damage_dealt": {
+              "common": 946
+            },
+            "ff_damage": 16,
+            "ff_incaps": 0,
+            "ff_kills": 0,
+            "headshots": {
+              "common": 11
+            },
+            "kills": {
+              "common": 29,
+              "witch": 1
+            },
+            "reloads": 23,
+            "shots_fired": 752,
+            "total_kills": 30,
+            "witch_oneshots": 0
+          },
+          "playtime_s": 540.000,
+          "steamid": "STEAM_1:1:55014728",
+          "teamwork": {
+            "defibs_used": 0,
+            "heals_given": 2,
+            "pairs": {
+              "STEAM_1:0:41882317": {
+                "ff_damage_from": 0,
+                "ff_damage_to": 16,
+                "healed": 0,
+                "healed_by": 1,
+                "incapped": 0,
+                "killed": 0,
+                "revived": 0,
+                "revived_by": 2,
+                "saved": 0,
+                "saved_by": 0,
+                "shoved": 0
+              },
+              "STEAM_1:0:73310092": {
+                "ff_damage_from": 27,
+                "ff_damage_to": 0,
+                "healed": 2,
+                "healed_by": 0,
+                "incapped": 0,
+                "killed": 0,
+                "revived": 2,
+                "revived_by": 0,
+                "saved": 0,
+                "saved_by": 0,
+                "shoved": 0
+              }
+            },
+            "pills_given": 0,
+            "rescues": 0,
+            "revives_given": 2,
+            "saves": 0
+          }
+        }
+      },
+      "playtime_s": 540.000,
+      "round_starts": 1,
+      "started_utc": 1789235242
+    },
+    {
+      "index": 2,
+      "map": "c1m2_streets",
+      "outcome": "cleared",
+      "players": {
+        "STEAM_1:0:41882317": {
+          "actions": {
+            "car_alarms": 0,
+            "gascans_poured": 0,
+            "gun_overheats": 0,
+            "items_used": {},
+            "jumps": 12,
+            "panic_events": 0,
+            "pickups": 6,
+            "props_broken": 9,
+            "shoves": 19,
+            "tank_rocks_hit_by": 0,
+            "witches_startled": 0
+          },
+          "character": "Nick",
+          "defense": {
+            "damage_taken": {
+              "tank": 86,
+              "teammate": 48
+            },
+            "deaths": 0,
+            "fall_damage": 0,
+            "grabbed_by": {},
+            "heals_taken": 0,
+            "incapped_by": {},
+            "incaps": 0,
+            "killed_by": {},
+            "times_defibbed": 0,
+            "times_revived": 0
+          },
+          "is_bot": false,
+          "name": "Kuya",
+          "offense": {
+            "damage_dealt": {
+              "charger": 461,
+              "common": 2654,
+              "spitter": 388
+            },
+            "ff_damage": 21,
+            "ff_incaps": 0,
+            "ff_kills": 0,
+            "headshots": {
+              "charger": 1,
+              "common": 26,
+              "spitter": 1
+            },
+            "kills": {
+              "charger": 2,
+              "common": 78,
+              "spitter": 2
+            },
+            "reloads": 24,
+            "shots_fired": 420,
+            "total_kills": 82,
+            "witch_oneshots": 0
+          },
+          "playtime_s": 840.000,
+          "steamid": "STEAM_1:0:41882317",
+          "teamwork": {
+            "defibs_used": 0,
+            "heals_given": 0,
+            "pairs": {
+              "STEAM_1:1:19204483": {
+                "ff_damage_from": 0,
+                "ff_damage_to": 21,
+                "healed": 0,
+                "healed_by": 0,
+                "incapped": 0,
+                "killed": 0,
+                "revived": 0,
+                "revived_by": 0,
+                "saved": 0,
+                "saved_by": 0,
+                "shoved": 0
+              },
+              "STEAM_1:1:55014728": {
+                "ff_damage_from": 48,
+                "ff_damage_to": 0,
+                "healed": 0,
+                "healed_by": 0,
+                "incapped": 0,
+                "killed": 0,
+                "revived": 1,
+                "revived_by": 0,
+                "saved": 0,
+                "saved_by": 0,
+                "shoved": 0
+              }
+            },
+            "pills_given": 0,
+            "rescues": 0,
+            "revives_given": 1,
+            "saves": 0
+          }
+        },
+        "STEAM_1:0:73310092": {
+          "actions": {
+            "car_alarms": 0,
+            "gascans_poured": 0,
+            "gun_overheats": 0,
+            "items_used": {
+              "molotov": 1,
+              "vomitjar": 1
+            },
+            "jumps": 30,
+            "panic_events": 0,
+            "pickups": 3,
+            "props_broken": 7,
+            "shoves": 18,
+            "tank_rocks_hit_by": 0,
+            "witches_startled": 0
+          },
+          "character": "Coach",
+          "defense": {
+            "damage_taken": {
+              "fall": 6,
+              "hunter": 65,
+              "tank": 43,
+              "teammate": 30
+            },
+            "deaths": 1,
+            "fall_damage": 6,
+            "grabbed_by": {
+              "hunter": 3,
+              "hunter_escaped": 3
+            },
+            "heals_taken": 0,
+            "incapped_by": {
+              "smoker": 1
+            },
+            "incaps": 1,
+            "killed_by": {
+              "smoker": 1
+            },
+            "times_defibbed": 1,
+            "times_revived": 0
+          },
+          "is_bot": false,
+          "name": "marco_ph",
+          "offense": {
+            "damage_dealt": {
+              "boomer": 529,
+              "charger": 156,
+              "common": 1869,
+              "spitter": 218,
+              "tank": 1971
+            },
+            "ff_damage": 38,
+            "ff_incaps": 0,
+            "ff_kills": 0,
+            "headshots": {
+              "boomer": 1,
+              "charger": 1,
+              "common": 15
+            },
+            "kills": {
+              "boomer": 2,
+              "charger": 1,
+              "common": 55,
+              "spitter": 1,
+              "tank": 1
+            },
+            "reloads": 31,
+            "shots_fired": 465,
+            "total_kills": 60,
+            "witch_oneshots": 0
+          },
+          "playtime_s": 840.000,
+          "steamid": "STEAM_1:0:73310092",
+          "teamwork": {
+            "defibs_used": 0,
+            "heals_given": 0,
+            "pairs": {
+              "STEAM_1:1:19204483": {
+                "ff_damage_from": 30,
+                "ff_damage_to": 0,
+                "healed": 0,
+                "healed_by": 0,
+                "incapped": 0,
+                "killed": 0,
+                "revived": 0,
+                "revived_by": 0,
+                "saved": 0,
+                "saved_by": 0,
+                "shoved": 0
+              },
+              "STEAM_1:1:55014728": {
+                "ff_damage_from": 0,
+                "ff_damage_to": 38,
+                "healed": 0,
+                "healed_by": 0,
+                "incapped": 0,
+                "killed": 0,
+                "revived": 0,
+                "revived_by": 0,
+                "saved": 0,
+                "saved_by": 0,
+                "shoved": 0
+              }
+            },
+            "pills_given": 0,
+            "rescues": 1,
+            "revives_given": 0,
+            "saves": 0
+          }
+        },
+        "STEAM_1:1:19204483": {
+          "actions": {
+            "car_alarms": 1,
+            "gascans_poured": 0,
+            "gun_overheats": 0,
+            "items_used": {
+              "pipe_bomb": 1,
+              "vomitjar": 1
+            },
+            "jumps": 10,
+            "panic_events": 0,
+            "pickups": 11,
+            "props_broken": 2,
+            "shoves": 19,
+            "tank_rocks_hit_by": 0,
+            "witches_startled": 0
+          },
+          "character": "Rochelle",
+          "defense": {
+            "damage_taken": {
+              "boomer": 18,
+              "spitter": 16,
+              "teammate": 21
+            },
+            "deaths": 1,
+            "fall_damage": 0,
+            "grabbed_by": {
+              "boomer_vomit": 1
+            },
+            "heals_taken": 0,
+            "incapped_by": {
+              "charger": 1
+            },
+            "incaps": 1,
+            "killed_by": {
+              "charger": 1
+            },
+            "times_defibbed": 0,
+            "times_revived": 0
+          },
+          "is_bot": false,
+          "name": "jaytee",
+          "offense": {
+            "damage_dealt": {
+              "common": 416,
+              "hunter": 525
+            },
+            "ff_damage": 30,
+            "ff_incaps": 0,
+            "ff_kills": 0,
+            "headshots": {
+              "common": 4,
+              "hunter": 1
+            },
+            "kills": {
+              "common": 14,
+              "hunter": 3,
+              "witch": 1
+            },
+            "reloads": 28,
+            "shots_fired": 648,
+            "total_kills": 18,
+            "witch_oneshots": 0
+          },
+          "playtime_s": 840.000,
+          "steamid": "STEAM_1:1:19204483",
+          "teamwork": {
+            "defibs_used": 0,
+            "heals_given": 0,
+            "pairs": {
+              "STEAM_1:0:41882317": {
+                "ff_damage_from": 21,
+                "ff_damage_to": 0,
+                "healed": 0,
+                "healed_by": 0,
+                "incapped": 0,
+                "killed": 0,
+                "revived": 0,
+                "revived_by": 0,
+                "saved": 0,
+                "saved_by": 0,
+                "shoved": 0
+              },
+              "STEAM_1:0:73310092": {
+                "ff_damage_from": 0,
+                "ff_damage_to": 30,
+                "healed": 0,
+                "healed_by": 0,
+                "incapped": 0,
+                "killed": 0,
+                "revived": 0,
+                "revived_by": 0,
+                "saved": 0,
+                "saved_by": 0,
+                "shoved": 0
+              }
+            },
+            "pills_given": 0,
+            "rescues": 0,
+            "revives_given": 0,
+            "saves": 0
+          }
+        },
+        "STEAM_1:1:55014728": {
+          "actions": {
+            "car_alarms": 0,
+            "gascans_poured": 0,
+            "gun_overheats": 0,
+            "items_used": {
+              "defibrillator": 1,
+              "pipe_bomb": 1,
+              "vomitjar": 1
+            },
+            "jumps": 34,
+            "panic_events": 0,
+            "pickups": 10,
+            "props_broken": 6,
+            "shoves": 25,
+            "tank_rocks_hit_by": 0,
+            "witches_startled": 0
+          },
+          "character": "Ellis",
+          "defense": {
+            "damage_taken": {
+              "charger": 14,
+              "spitter": 16,
+              "teammate": 38,
+              "world": 22
+            },
+            "deaths": 0,
+            "fall_damage": 0,
+            "grabbed_by": {
+              "charger": 1
+            },
+            "heals_taken": 0,
+            "incapped_by": {
+              "charger": 1
+            },
+            "incaps": 1,
+            "killed_by": {},
+            "times_defibbed": 0,
+            "times_revived": 1
+          },
+          "is_bot": false,
+          "name": "lenlen",
+          "offense": {
+            "damage_dealt": {
+              "common": 1314,
+              "hunter": 855,
+              "jockey": 145
+            },
+            "ff_damage": 48,
+            "ff_incaps": 0,
+            "ff_kills": 0,
+            "headshots": {
+              "common": 9,
+              "hunter": 1,
+              "jockey": 1
+            },
+            "kills": {
+              "common": 38,
+              "hunter": 4,
+              "jockey": 1
+            },
+            "reloads": 24,
+            "shots_fired": 358,
+            "total_kills": 43,
+            "witch_oneshots": 0
+          },
+          "playtime_s": 840.000,
+          "steamid": "STEAM_1:1:55014728",
+          "teamwork": {
+            "defibs_used": 1,
+            "heals_given": 0,
+            "pairs": {
+              "STEAM_1:0:41882317": {
+                "ff_damage_from": 0,
+                "ff_damage_to": 48,
+                "healed": 0,
+                "healed_by": 0,
+                "incapped": 0,
+                "killed": 0,
+                "revived": 0,
+                "revived_by": 1,
+                "saved": 0,
+                "saved_by": 0,
+                "shoved": 0
+              },
+              "STEAM_1:0:73310092": {
+                "ff_damage_from": 38,
+                "ff_damage_to": 0,
+                "healed": 0,
+                "healed_by": 0,
+                "incapped": 0,
+                "killed": 0,
+                "revived": 0,
+                "revived_by": 0,
+                "saved": 0,
+                "saved_by": 0,
+                "shoved": 0
+              }
+            },
+            "pills_given": 0,
+            "rescues": 0,
+            "revives_given": 0,
+            "saves": 0
+          }
+        }
+      },
+      "playtime_s": 840.000,
+      "round_starts": 1,
+      "started_utc": 1789235242
+    },
+    {
+      "index": 3,
+      "map": "c1m3_mall",
+      "outcome": "cleared",
+      "players": {
+        "STEAM_1:0:41882317": {
+          "actions": {
+            "car_alarms": 0,
+            "gascans_poured": 0,
+            "gun_overheats": 0,
+            "items_used": {
+              "molotov": 1,
+              "pipe_bomb": 1
+            },
+            "jumps": 22,
+            "panic_events": 1,
+            "pickups": 3,
+            "props_broken": 6,
+            "shoves": 15,
+            "tank_rocks_hit_by": 0,
+            "witches_startled": 0
+          },
+          "character": "Nick",
+          "defense": {
+            "damage_taken": {
+              "fall": 44,
+              "hunter": 107,
+              "jockey": 44,
+              "smoker": 26,
+              "teammate": 12
+            },
+            "deaths": 0,
+            "fall_damage": 44,
+            "grabbed_by": {
+              "hunter": 5,
+              "hunter_escaped": 5,
+              "jockey": 2,
+              "smoker": 2,
+              "smoker_escaped": 2
+            },
+            "heals_taken": 0,
+            "incapped_by": {},
+            "incaps": 0,
+            "killed_by": {},
+            "times_defibbed": 0,
+            "times_revived": 0
+          },
+          "is_bot": false,
+          "name": "Kuya",
+          "offense": {
+            "damage_dealt": {
+              "boomer": 482,
+              "charger": 486,
+              "common": 2398,
+              "spitter": 428
+            },
+            "ff_damage": 17,
+            "ff_incaps": 0,
+            "ff_kills": 0,
+            "headshots": {
+              "boomer": 1,
+              "charger": 1,
+              "common": 25,
+              "spitter": 1
+            },
+            "kills": {
+              "boomer": 2,
+              "charger": 2,
+              "common": 73,
+              "spitter": 2
+            },
+            "reloads": 34,
+            "shots_fired": 456,
+            "total_kills": 79,
+            "witch_oneshots": 0
+          },
+          "playtime_s": 660.000,
+          "steamid": "STEAM_1:0:41882317",
+          "teamwork": {
+            "defibs_used": 0,
+            "heals_given": 1,
+            "pairs": {
+              "STEAM_1:1:19204483": {
+                "ff_damage_from": 0,
+                "ff_damage_to": 17,
+                "healed": 0,
+                "healed_by": 0,
+                "incapped": 0,
+                "killed": 0,
+                "revived": 0,
+                "revived_by": 0,
+                "saved": 0,
+                "saved_by": 0,
+                "shoved": 0
+              },
+              "STEAM_1:1:55014728": {
+                "ff_damage_from": 12,
+                "ff_damage_to": 0,
+                "healed": 1,
+                "healed_by": 0,
+                "incapped": 0,
+                "killed": 0,
+                "revived": 2,
+                "revived_by": 0,
+                "saved": 0,
+                "saved_by": 0,
+                "shoved": 0
+              }
+            },
+            "pills_given": 0,
+            "rescues": 0,
+            "revives_given": 2,
+            "saves": 0
+          }
+        },
+        "STEAM_1:0:73310092": {
+          "actions": {
+            "car_alarms": 0,
+            "gascans_poured": 0,
+            "gun_overheats": 0,
+            "items_used": {
+              "molotov": 1,
+              "vomitjar": 1
+            },
+            "jumps": 42,
+            "panic_events": 0,
+            "pickups": 7,
+            "props_broken": 3,
+            "shoves": 10,
+            "tank_rocks_hit_by": 0,
+            "witches_startled": 0
+          },
+          "character": "Coach",
+          "defense": {
+            "damage_taken": {
+              "fall": 34,
+              "teammate": 22
+            },
+            "deaths": 0,
+            "fall_damage": 34,
+            "grabbed_by": {},
+            "heals_taken": 0,
+            "incapped_by": {},
+            "incaps": 0,
+            "killed_by": {},
+            "times_defibbed": 0,
+            "times_revived": 0
+          },
+          "is_bot": false,
+          "name": "marco_ph",
+          "offense": {
+            "damage_dealt": {
+              "common": 1432
+            },
+            "ff_damage": 3,
+            "ff_incaps": 0,
+            "ff_kills": 0,
+            "headshots": {
+              "common": 11
+            },
+            "kills": {
+              "common": 44
+            },
+            "reloads": 22,
+            "shots_fired": 789,
+            "total_kills": 44,
+            "witch_oneshots": 0
+          },
+          "playtime_s": 660.000,
+          "steamid": "STEAM_1:0:73310092",
+          "teamwork": {
+            "defibs_used": 0,
+            "heals_given": 2,
+            "pairs": {
+              "STEAM_1:1:19204483": {
+                "ff_damage_from": 22,
+                "ff_damage_to": 0,
+                "healed": 2,
+                "healed_by": 0,
+                "incapped": 0,
+                "killed": 0,
+                "revived": 2,
+                "revived_by": 0,
+                "saved": 0,
+                "saved_by": 0,
+                "shoved": 0
+              },
+              "STEAM_1:1:55014728": {
+                "ff_damage_from": 0,
+                "ff_damage_to": 3,
+                "healed": 0,
+                "healed_by": 0,
+                "incapped": 0,
+                "killed": 0,
+                "revived": 0,
+                "revived_by": 0,
+                "saved": 0,
+                "saved_by": 0,
+                "shoved": 0
+              }
+            },
+            "pills_given": 0,
+            "rescues": 0,
+            "revives_given": 2,
+            "saves": 0
+          }
+        },
+        "STEAM_1:1:19204483": {
+          "actions": {
+            "car_alarms": 0,
+            "gascans_poured": 0,
+            "gun_overheats": 0,
+            "items_used": {
+              "molotov": 1,
+              "pipe_bomb": 1
+            },
+            "jumps": 38,
+            "panic_events": 0,
+            "pickups": 8,
+            "props_broken": 6,
+            "shoves": 14,
+            "tank_rocks_hit_by": 0,
+            "witches_startled": 0
+          },
+          "character": "Rochelle",
+          "defense": {
+            "damage_taken": {
+              "teammate": 17
+            },
+            "deaths": 0,
+            "fall_damage": 0,
+            "grabbed_by": {},
+            "heals_taken": 2,
+            "incapped_by": {
+              "boomer": 1,
+              "spitter": 1
+            },
+            "incaps": 2,
+            "killed_by": {},
+            "times_defibbed": 0,
+            "times_revived": 2
+          },
+          "is_bot": false,
+          "name": "jaytee",
+          "offense": {
+            "damage_dealt": {
+              "common": 542,
+              "hunter": 1451,
+              "jockey": 420,
+              "smoker": 432
+            },
+            "ff_damage": 22,
+            "ff_incaps": 0,
+            "ff_kills": 0,
+            "headshots": {
+              "common": 5,
+              "hunter": 3,
+              "jockey": 1
+            },
+            "kills": {
+              "common": 16,
+              "hunter": 6,
+              "jockey": 2,
+              "smoker": 2
+            },
+            "reloads": 28,
+            "shots_fired": 725,
+            "total_kills": 26,
+            "witch_oneshots": 0
+          },
+          "playtime_s": 660.000,
+          "steamid": "STEAM_1:1:19204483",
+          "teamwork": {
+            "defibs_used": 0,
+            "heals_given": 0,
+            "pairs": {
+              "STEAM_1:0:41882317": {
+                "ff_damage_from": 17,
+                "ff_damage_to": 0,
+                "healed": 0,
+                "healed_by": 0,
+                "incapped": 0,
+                "killed": 0,
+                "revived": 0,
+                "revived_by": 0,
+                "saved": 0,
+                "saved_by": 0,
+                "shoved": 0
+              },
+              "STEAM_1:0:73310092": {
+                "ff_damage_from": 0,
+                "ff_damage_to": 22,
+                "healed": 0,
+                "healed_by": 2,
+                "incapped": 0,
+                "killed": 0,
+                "revived": 0,
+                "revived_by": 2,
+                "saved": 0,
+                "saved_by": 0,
+                "shoved": 0
+              }
+            },
+            "pills_given": 0,
+            "rescues": 0,
+            "revives_given": 0,
+            "saves": 0
+          }
+        },
+        "STEAM_1:1:55014728": {
+          "actions": {
+            "car_alarms": 0,
+            "gascans_poured": 0,
+            "gun_overheats": 0,
+            "items_used": {},
+            "jumps": 28,
+            "panic_events": 0,
+            "pickups": 3,
+            "props_broken": 1,
+            "shoves": 27,
+            "tank_rocks_hit_by": 0,
+            "witches_startled": 0
+          },
+          "character": "Ellis",
+          "defense": {
+            "damage_taken": {
+              "boomer": 30,
+              "charger": 46,
+              "teammate": 3,
+              "world": 65
+            },
+            "deaths": 0,
+            "fall_damage": 0,
+            "grabbed_by": {
+              "boomer_vomit": 2,
+              "charger": 2
+            },
+            "heals_taken": 1,
+            "incapped_by": {
+              "boomer": 1,
+              "spitter": 1
+            },
+            "incaps": 2,
+            "killed_by": {},
+            "times_defibbed": 0,
+            "times_revived": 2
+          },
+          "is_bot": false,
+          "name": "lenlen",
+          "offense": {
+            "damage_dealt": {
+              "common": 928
+            },
+            "ff_damage": 12,
+            "ff_incaps": 0,
+            "ff_kills": 0,
+            "headshots": {
+              "common": 8
+            },
+            "kills": {
+              "common": 28
+            },
+            "reloads": 16,
+            "shots_fired": 748,
+            "total_kills": 28,
+            "witch_oneshots": 0
+          },
+          "playtime_s": 660.000,
+          "steamid": "STEAM_1:1:55014728",
+          "teamwork": {
+            "defibs_used": 0,
+            "heals_given": 0,
+            "pairs": {
+              "STEAM_1:0:41882317": {
+                "ff_damage_from": 0,
+                "ff_damage_to": 12,
+                "healed": 0,
+                "healed_by": 1,
+                "incapped": 0,
+                "killed": 0,
+                "revived": 0,
+                "revived_by": 2,
+                "saved": 0,
+                "saved_by": 0,
+                "shoved": 0
+              },
+              "STEAM_1:0:73310092": {
+                "ff_damage_from": 3,
+                "ff_damage_to": 0,
+                "healed": 0,
+                "healed_by": 0,
+                "incapped": 0,
+                "killed": 0,
+                "revived": 0,
+                "revived_by": 0,
+                "saved": 0,
+                "saved_by": 0,
+                "shoved": 0
+              }
+            },
+            "pills_given": 0,
+            "rescues": 0,
+            "revives_given": 0,
+            "saves": 0
+          }
+        }
+      },
+      "playtime_s": 660.000,
+      "round_starts": 1,
+      "started_utc": 1789235242
+    },
+    {
+      "index": 4,
+      "map": "c1m4_atrium",
+      "outcome": "finale_win",
+      "players": {
+        "STEAM_1:0:41882317": {
+          "actions": {
+            "car_alarms": 0,
+            "gascans_poured": 0,
+            "gun_overheats": 0,
+            "items_used": {
+              "molotov": 1,
+              "pain_pills": 3,
+              "pipe_bomb": 1
+            },
+            "jumps": 22,
+            "panic_events": 1,
+            "pickups": 4,
+            "props_broken": 2,
+            "shoves": 31,
+            "tank_rocks_hit_by": 0,
+            "witches_startled": 0
+          },
+          "character": "Nick",
+          "defense": {
+            "damage_taken": {
+              "fall": 38,
+              "smoker": 13,
+              "teammate": 43
+            },
+            "deaths": 0,
+            "fall_damage": 38,
+            "grabbed_by": {
+              "smoker": 1,
+              "smoker_escaped": 1
+            },
+            "heals_taken": 1,
+            "incapped_by": {
+              "hunter": 1,
+              "jockey": 2,
+              "smoker": 1,
+              "teammate": 1
+            },
+            "incaps": 5,
+            "killed_by": {},
+            "times_defibbed": 0,
+            "times_revived": 5
+          },
+          "is_bot": false,
+          "name": "Kuya",
+          "offense": {
+            "damage_dealt": {
+              "charger": 262,
+              "common": 3180,
+              "spitter": 408
+            },
+            "ff_damage": 0,
+            "ff_incaps": 0,
+            "ff_kills": 0,
+            "headshots": {
+              "charger": 1,
+              "common": 30,
+              "spitter": 1
+            },
+            "kills": {
+              "charger": 1,
+              "common": 96,
+              "spitter": 2
+            },
+            "reloads": 13,
+            "shots_fired": 704,
+            "total_kills": 99,
+            "witch_oneshots": 0
+          },
+          "playtime_s": 480.000,
+          "steamid": "STEAM_1:0:41882317",
+          "teamwork": {
+            "defibs_used": 0,
+            "heals_given": 0,
+            "pairs": {
+              "STEAM_1:1:19204483": {
+                "ff_damage_from": 0,
+                "ff_damage_to": 0,
+                "healed": 0,
+                "healed_by": 1,
+                "incapped": 0,
+                "killed": 0,
+                "revived": 0,
+                "revived_by": 4,
+                "saved": 0,
+                "saved_by": 0,
+                "shoved": 0
+              },
+              "STEAM_1:1:55014728": {
+                "ff_damage_from": 43,
+                "ff_damage_to": 0,
+                "healed": 0,
+                "healed_by": 0,
+                "incapped": 0,
+                "killed": 0,
+                "revived": 0,
+                "revived_by": 1,
+                "saved": 0,
+                "saved_by": 0,
+                "shoved": 0
+              }
+            },
+            "pills_given": 0,
+            "rescues": 0,
+            "revives_given": 0,
+            "saves": 0
+          }
+        },
+        "STEAM_1:0:73310092": {
+          "actions": {
+            "car_alarms": 0,
+            "gascans_poured": 0,
+            "gun_overheats": 0,
+            "items_used": {
+              "pain_pills": 1
+            },
+            "jumps": 28,
+            "panic_events": 0,
+            "pickups": 9,
+            "props_broken": 1,
+            "shoves": 23,
+            "tank_rocks_hit_by": 0,
+            "witches_startled": 1
+          },
+          "character": "Coach",
+          "defense": {
+            "damage_taken": {
+              "fall": 14,
+              "hunter": 55,
+              "jockey": 24,
+              "smoker": 32
+            },
+            "deaths": 0,
+            "fall_damage": 14,
+            "grabbed_by": {
+              "hunter": 3,
+              "hunter_escaped": 3,
+              "jockey": 2,
+              "smoker": 2,
+              "smoker_escaped": 2
+            },
+            "heals_taken": 2,
+            "incapped_by": {
+              "hunter": 2,
+              "jockey": 1,
+              "smoker": 1
+            },
+            "incaps": 4,
+            "killed_by": {},
+            "times_defibbed": 0,
+            "times_revived": 4
+          },
+          "is_bot": false,
+          "name": "marco_ph",
+          "offense": {
+            "damage_dealt": {
+              "charger": 477,
+              "common": 1754,
+              "spitter": 294
+            },
+            "ff_damage": 0,
+            "ff_incaps": 0,
+            "ff_kills": 0,
+            "headshots": {
+              "common": 19
+            },
+            "kills": {
+              "charger": 2,
+              "common": 50,
+              "spitter": 1,
+              "witch": 1
+            },
+            "reloads": 21,
+            "shots_fired": 476,
+            "total_kills": 54,
+            "witch_oneshots": 0
+          },
+          "playtime_s": 480.000,
+          "steamid": "STEAM_1:0:73310092",
+          "teamwork": {
+            "defibs_used": 0,
+            "heals_given": 0,
+            "pairs": {
+              "STEAM_1:1:55014728": {
+                "ff_damage_from": 0,
+                "ff_damage_to": 0,
+                "healed": 0,
+                "healed_by": 2,
+                "incapped": 0,
+                "killed": 0,
+                "revived": 0,
+                "revived_by": 4,
+                "saved": 0,
+                "saved_by": 0,
+                "shoved": 0
+              }
+            },
+            "pills_given": 0,
+            "rescues": 0,
+            "revives_given": 0,
+            "saves": 0
+          }
+        },
+        "STEAM_1:1:19204483": {
+          "actions": {
+            "car_alarms": 0,
+            "gascans_poured": 0,
+            "gun_overheats": 0,
+            "items_used": {
+              "molotov": 1,
+              "vomitjar": 1
+            },
+            "jumps": 14,
+            "panic_events": 0,
+            "pickups": 3,
+            "props_broken": 7,
+            "shoves": 14,
+            "tank_rocks_hit_by": 0,
+            "witches_startled": 0
+          },
+          "character": "Rochelle",
+          "defense": {
+            "damage_taken": {
+              "charger": 16,
+              "world": 19
+            },
+            "deaths": 0,
+            "fall_damage": 0,
+            "grabbed_by": {
+              "charger": 1
+            },
+            "heals_taken": 0,
+            "incapped_by": {},
+            "incaps": 0,
+            "killed_by": {},
+            "times_defibbed": 0,
+            "times_revived": 0
+          },
+          "is_bot": false,
+          "name": "jaytee",
+          "offense": {
+            "damage_dealt": {
+              "common": 748,
+              "jockey": 199,
+              "smoker": 288
+            },
+            "ff_damage": 0,
+            "ff_incaps": 0,
+            "ff_kills": 0,
+            "headshots": {
+              "common": 8
+            },
+            "kills": {
+              "common": 21,
+              "jockey": 1,
+              "smoker": 1
+            },
+            "reloads": 15,
+            "shots_fired": 313,
+            "total_kills": 23,
+            "witch_oneshots": 0
+          },
+          "playtime_s": 480.000,
+          "steamid": "STEAM_1:1:19204483",
+          "teamwork": {
+            "defibs_used": 0,
+            "heals_given": 1,
+            "pairs": {
+              "STEAM_1:0:41882317": {
+                "ff_damage_from": 0,
+                "ff_damage_to": 0,
+                "healed": 1,
+                "healed_by": 0,
+                "incapped": 0,
+                "killed": 0,
+                "revived": 4,
+                "revived_by": 0,
+                "saved": 0,
+                "saved_by": 0,
+                "shoved": 0
+              }
+            },
+            "pills_given": 0,
+            "rescues": 0,
+            "revives_given": 4,
+            "saves": 0
+          }
+        },
+        "STEAM_1:1:55014728": {
+          "actions": {
+            "car_alarms": 0,
+            "gascans_poured": 0,
+            "gun_overheats": 0,
+            "items_used": {
+              "molotov": 1,
+              "vomitjar": 1
+            },
+            "jumps": 30,
+            "panic_events": 0,
+            "pickups": 10,
+            "props_broken": 3,
+            "shoves": 7,
+            "tank_rocks_hit_by": 0,
+            "witches_startled": 0
+          },
+          "character": "Ellis",
+          "defense": {
+            "damage_taken": {
+              "spitter": 22,
+              "world": 24
+            },
+            "deaths": 0,
+            "fall_damage": 0,
+            "grabbed_by": {},
+            "heals_taken": 0,
+            "incapped_by": {},
+            "incaps": 0,
+            "killed_by": {},
+            "times_defibbed": 0,
+            "times_revived": 0
+          },
+          "is_bot": false,
+          "name": "lenlen",
+          "offense": {
+            "damage_dealt": {
+              "common": 1252,
+              "hunter": 735,
+              "jockey": 300,
+              "smoker": 472
+            },
+            "ff_damage": 43,
+            "ff_incaps": 1,
+            "ff_kills": 0,
+            "headshots": {
+              "common": 12,
+              "hunter": 1,
+              "jockey": 1
+            },
+            "kills": {
+              "common": 36,
+              "hunter": 4,
+              "jockey": 2,
+              "smoker": 2
+            },
+            "reloads": 34,
+            "shots_fired": 484,
+            "total_kills": 44,
+            "witch_oneshots": 0
+          },
+          "playtime_s": 480.000,
+          "steamid": "STEAM_1:1:55014728",
+          "teamwork": {
+            "defibs_used": 0,
+            "heals_given": 2,
+            "pairs": {
+              "STEAM_1:0:41882317": {
+                "ff_damage_from": 0,
+                "ff_damage_to": 43,
+                "healed": 0,
+                "healed_by": 0,
+                "incapped": 1,
+                "killed": 0,
+                "revived": 1,
+                "revived_by": 0,
+                "saved": 0,
+                "saved_by": 0,
+                "shoved": 0
+              },
+              "STEAM_1:0:73310092": {
+                "ff_damage_from": 0,
+                "ff_damage_to": 0,
+                "healed": 2,
+                "healed_by": 0,
+                "incapped": 0,
+                "killed": 0,
+                "revived": 4,
+                "revived_by": 0,
+                "saved": 0,
+                "saved_by": 0,
+                "shoved": 0
+              }
+            },
+            "pills_given": 0,
+            "rescues": 0,
+            "revives_given": 5,
+            "saves": 0
+          }
+        }
+      },
+      "playtime_s": 480.000,
+      "round_starts": 1,
+      "started_utc": 1789235243
+    }
+  ],
+  "difficulty": "Hard",
+  "events_seen": {
+    "break_prop": 90,
+    "charger_carry_start": 4,
+    "create_panic_event": 3,
+    "defibrillator_used": 1,
+    "finale_win": 1,
+    "heal_success": 11,
+    "infected_death": 687,
+    "infected_hurt": 687,
+    "item_pickup": 104,
+    "jockey_ride": 5,
+    "lunge_pounce": 11,
+    "map_transition": 3,
+    "pills_used": 4,
+    "player_death": 60,
+    "player_falldamage": 10,
+    "player_hurt": 122,
+    "player_incapacitated": 24,
+    "player_jump": 424,
+    "player_now_it": 4,
+    "player_shoved": 292,
+    "pounce_stopped": 11,
+    "revive_success": 21,
+    "round_start": 4,
+    "survivor_rescued": 2,
+    "tongue_grab": 5,
+    "tongue_release": 5,
+    "triggered_car_alarm": 1,
+    "weapon_fire": 36,
+    "weapon_reload": 374,
+    "witch_harasser_set": 1,
+    "witch_killed": 3
+  },
+  "gamemode": "coop",
+  "outcomes": {
+    "finale_win": 1,
+    "map_cleared": 3
+  },
+  "playtime_s": 2520.000,
+  "round_starts": 4,
+  "saves": 88,
+  "schema": 1,
+  "session_id": "2026-09-12_1747-0002",
+  "started_utc": 1789235242,
+  "totals": {
+    "STEAM_1:0:41882317": {
+      "actions": {
+        "car_alarms": 0,
+        "gascans_poured": 0,
+        "gun_overheats": 0,
+        "items_used": {
+          "molotov": 2,
+          "pain_pills": 3,
+          "pipe_bomb": 2
+        },
+        "jumps": 80,
+        "panic_events": 3,
+        "pickups": 16,
+        "props_broken": 26,
+        "shoves": 82,
+        "tank_rocks_hit_by": 0,
+        "witches_startled": 0
+      },
+      "character": "Nick",
+      "defense": {
+        "damage_taken": {
+          "fall": 122,
+          "hunter": 107,
+          "jockey": 65,
+          "smoker": 39,
+          "tank": 86,
+          "teammate": 119
+        },
+        "deaths": 0,
+        "fall_damage": 122,
+        "grabbed_by": {
+          "hunter": 5,
+          "hunter_escaped": 5,
+          "jockey": 3,
+          "smoker": 3,
+          "smoker_escaped": 3
+        },
+        "heals_taken": 2,
+        "incapped_by": {
+          "hunter": 1,
+          "jockey": 3,
+          "smoker": 1,
+          "teammate": 1
+        },
+        "incaps": 6,
+        "killed_by": {},
+        "times_defibbed": 0,
+        "times_revived": 6
+      },
+      "is_bot": false,
+      "name": "Kuya",
+      "offense": {
+        "damage_dealt": {
+          "boomer": 482,
+          "charger": 1209,
+          "common": 10008,
+          "spitter": 1625
+        },
+        "ff_damage": 60,
+        "ff_incaps": 0,
+        "ff_kills": 0,
+        "headshots": {
+          "boomer": 1,
+          "charger": 3,
+          "common": 93,
+          "spitter": 4
+        },
+        "kills": {
+          "boomer": 2,
+          "charger": 5,
+          "common": 297,
+          "spitter": 8
+        },
+        "reloads": 98,
+        "shots_fired": 2266,
+        "total_kills": 312,
+        "witch_oneshots": 0
+      },
+      "playtime_s": 2520.000,
+      "steamid": "STEAM_1:0:41882317",
+      "teamwork": {
+        "defibs_used": 0,
+        "heals_given": 2,
+        "pairs": {
+          "STEAM_1:1:19204483": {
+            "ff_damage_from": 0,
+            "ff_damage_to": 60,
+            "healed": 0,
+            "healed_by": 2,
+            "incapped": 0,
+            "killed": 0,
+            "revived": 0,
+            "revived_by": 5,
+            "saved": 0,
+            "saved_by": 0,
+            "shoved": 0
+          },
+          "STEAM_1:1:55014728": {
+            "ff_damage_from": 119,
+            "ff_damage_to": 0,
+            "healed": 2,
+            "healed_by": 0,
+            "incapped": 0,
+            "killed": 0,
+            "revived": 5,
+            "revived_by": 1,
+            "saved": 0,
+            "saved_by": 0,
+            "shoved": 0
+          }
+        },
+        "pills_given": 0,
+        "rescues": 0,
+        "revives_given": 5,
+        "saves": 0
+      }
+    },
+    "STEAM_1:0:73310092": {
+      "actions": {
+        "car_alarms": 0,
+        "gascans_poured": 0,
+        "gun_overheats": 0,
+        "items_used": {
+          "molotov": 2,
+          "pain_pills": 1,
+          "vomitjar": 2
+        },
+        "jumps": 128,
+        "panic_events": 0,
+        "pickups": 29,
+        "props_broken": 20,
+        "shoves": 64,
+        "tank_rocks_hit_by": 0,
+        "witches_startled": 1
+      },
+      "character": "Coach",
+      "defense": {
+        "damage_taken": {
+          "fall": 80,
+          "hunter": 120,
+          "jockey": 24,
+          "smoker": 32,
+          "tank": 43,
+          "teammate": 145
+        },
+        "deaths": 1,
+        "fall_damage": 80,
+        "grabbed_by": {
+          "hunter": 6,
+          "hunter_escaped": 6,
+          "jockey": 2,
+          "smoker": 2,
+          "smoker_escaped": 2
+        },
+        "heals_taken": 4,
+        "incapped_by": {
+          "hunter": 3,
+          "jockey": 2,
+          "smoker": 2,
+          "teammate": 1
+        },
+        "incaps": 8,
+        "killed_by": {
+          "smoker": 1
+        },
+        "times_defibbed": 1,
+        "times_revived": 7
+      },
+      "is_bot": false,
+      "name": "marco_ph",
+      "offense": {
+        "damage_dealt": {
+          "boomer": 682,
+          "charger": 781,
+          "common": 6585,
+          "spitter": 763,
+          "tank": 1971
+        },
+        "ff_damage": 68,
+        "ff_incaps": 0,
+        "ff_kills": 0,
+        "headshots": {
+          "boomer": 2,
+          "charger": 1,
+          "common": 59
+        },
+        "kills": {
+          "boomer": 3,
+          "charger": 4,
+          "common": 193,
+          "spitter": 3,
+          "tank": 1,
+          "witch": 1
+        },
+        "reloads": 91,
+        "shots_fired": 2464,
+        "total_kills": 205,
+        "witch_oneshots": 0
+      },
+      "playtime_s": 2520.000,
+      "steamid": "STEAM_1:0:73310092",
+      "teamwork": {
+        "defibs_used": 0,
+        "heals_given": 3,
+        "pairs": {
+          "STEAM_1:1:19204483": {
+            "ff_damage_from": 145,
+            "ff_damage_to": 0,
+            "healed": 3,
+            "healed_by": 0,
+            "incapped": 0,
+            "killed": 0,
+            "revived": 3,
+            "revived_by": 1,
+            "saved": 0,
+            "saved_by": 0,
+            "shoved": 0
+          },
+          "STEAM_1:1:55014728": {
+            "ff_damage_from": 0,
+            "ff_damage_to": 68,
+            "healed": 0,
+            "healed_by": 4,
+            "incapped": 0,
+            "killed": 0,
+            "revived": 0,
+            "revived_by": 6,
+            "saved": 0,
+            "saved_by": 0,
+            "shoved": 0
+          }
+        },
+        "pills_given": 0,
+        "rescues": 2,
+        "revives_given": 3,
+        "saves": 0
+      }
+    },
+    "STEAM_1:1:19204483": {
+      "actions": {
+        "car_alarms": 1,
+        "gascans_poured": 0,
+        "gun_overheats": 0,
+        "items_used": {
+          "molotov": 2,
+          "pipe_bomb": 2,
+          "vomitjar": 2
+        },
+        "jumps": 94,
+        "panic_events": 0,
+        "pickups": 30,
+        "props_broken": 24,
+        "shoves": 56,
+        "tank_rocks_hit_by": 0,
+        "witches_startled": 0
+      },
+      "character": "Rochelle",
+      "defense": {
+        "damage_taken": {
+          "boomer": 32,
+          "charger": 16,
+          "spitter": 30,
+          "teammate": 60,
+          "world": 43
+        },
+        "deaths": 2,
+        "fall_damage": 0,
+        "grabbed_by": {
+          "boomer_vomit": 2,
+          "charger": 1
+        },
+        "heals_taken": 3,
+        "incapped_by": {
+          "boomer": 3,
+          "charger": 1,
+          "spitter": 1
+        },
+        "incaps": 5,
+        "killed_by": {
+          "boomer": 1,
+          "charger": 1
+        },
+        "times_defibbed": 0,
+        "times_revived": 3
+      },
+      "is_bot": false,
+      "name": "jaytee",
+      "offense": {
+        "damage_dealt": {
+          "common": 2204,
+          "hunter": 1976,
+          "jockey": 962,
+          "smoker": 879
+        },
+        "ff_damage": 145,
+        "ff_incaps": 1,
+        "ff_kills": 0,
+        "headshots": {
+          "common": 24,
+          "hunter": 4,
+          "jockey": 1
+        },
+        "kills": {
+          "common": 66,
+          "hunter": 9,
+          "jockey": 5,
+          "smoker": 4,
+          "witch": 1
+        },
+        "reloads": 88,
+        "shots_fired": 2364,
+        "total_kills": 85,
+        "witch_oneshots": 0
+      },
+      "playtime_s": 2520.000,
+      "steamid": "STEAM_1:1:19204483",
+      "teamwork": {
+        "defibs_used": 0,
+        "heals_given": 2,
+        "pairs": {
+          "STEAM_1:0:41882317": {
+            "ff_damage_from": 60,
+            "ff_damage_to": 0,
+            "healed": 2,
+            "healed_by": 0,
+            "incapped": 0,
+            "killed": 0,
+            "revived": 5,
+            "revived_by": 0,
+            "saved": 0,
+            "saved_by": 0,
+            "shoved": 0
+          },
+          "STEAM_1:0:73310092": {
+            "ff_damage_from": 0,
+            "ff_damage_to": 145,
+            "healed": 0,
+            "healed_by": 3,
+            "incapped": 1,
+            "killed": 0,
+            "revived": 1,
+            "revived_by": 3,
+            "saved": 0,
+            "saved_by": 0,
+            "shoved": 0
+          }
+        },
+        "pills_given": 0,
+        "rescues": 0,
+        "revives_given": 6,
+        "saves": 0
+      }
+    },
+    "STEAM_1:1:55014728": {
+      "actions": {
+        "car_alarms": 0,
+        "gascans_poured": 0,
+        "gun_overheats": 0,
+        "items_used": {
+          "defibrillator": 1,
+          "molotov": 2,
+          "pipe_bomb": 2,
+          "vomitjar": 2
+        },
+        "jumps": 122,
+        "panic_events": 0,
+        "pickups": 29,
+        "props_broken": 20,
+        "shoves": 90,
+        "tank_rocks_hit_by": 0,
+        "witches_startled": 0
+      },
+      "character": "Ellis",
+      "defense": {
+        "damage_taken": {
+          "boomer": 30,
+          "charger": 60,
+          "spitter": 66,
+          "teammate": 68,
+          "world": 125
+        },
+        "deaths": 0,
+        "fall_damage": 0,
+        "grabbed_by": {
+          "boomer_vomit": 2,
+          "charger": 3
+        },
+        "heals_taken": 2,
+        "incapped_by": {
+          "boomer": 1,
+          "charger": 3,
+          "spitter": 1
+        },
+        "incaps": 5,
+        "killed_by": {},
+        "times_defibbed": 0,
+        "times_revived": 5
+      },
+      "is_bot": false,
+      "name": "lenlen",
+      "offense": {
+        "damage_dealt": {
+          "common": 4440,
+          "hunter": 1590,
+          "jockey": 445,
+          "smoker": 472
+        },
+        "ff_damage": 119,
+        "ff_incaps": 1,
+        "ff_kills": 0,
+        "headshots": {
+          "common": 40,
+          "hunter": 2,
+          "jockey": 2
+        },
+        "kills": {
+          "common": 131,
+          "hunter": 8,
+          "jockey": 3,
+          "smoker": 2,
+          "witch": 1
+        },
+        "reloads": 97,
+        "shots_fired": 2342,
+        "total_kills": 145,
+        "witch_oneshots": 0
+      },
+      "playtime_s": 2520.000,
+      "steamid": "STEAM_1:1:55014728",
+      "teamwork": {
+        "defibs_used": 1,
+        "heals_given": 4,
+        "pairs": {
+          "STEAM_1:0:41882317": {
+            "ff_damage_from": 0,
+            "ff_damage_to": 119,
+            "healed": 0,
+            "healed_by": 2,
+            "incapped": 1,
+            "killed": 0,
+            "revived": 1,
+            "revived_by": 5,
+            "saved": 0,
+            "saved_by": 0,
+            "shoved": 0
+          },
+          "STEAM_1:0:73310092": {
+            "ff_damage_from": 68,
+            "ff_damage_to": 0,
+            "healed": 4,
+            "healed_by": 0,
+            "incapped": 0,
+            "killed": 0,
+            "revived": 6,
+            "revived_by": 0,
+            "saved": 0,
+            "saved_by": 0,
+            "shoved": 0
+          }
+        },
+        "pills_given": 0,
+        "rescues": 0,
+        "revives_given": 7,
+        "saves": 0
+      }
+    }
+  },
+  "updated_utc": 1789235243
+}
